@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\TVSet\CommandHandler.cpp" />
     <ClCompile Include="..\TVSet\TVSet.cpp" />
     <ClCompile Include="TVSetTests.cpp" />
   </ItemGroup>

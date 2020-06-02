@@ -21,9 +21,6 @@
     <ClCompile Include="..\TVSet\TVSet.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\TVSet\CommandHandler.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TVSet\TVSet.h">
