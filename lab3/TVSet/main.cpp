@@ -82,6 +82,10 @@ void TVController(istream& input, ostream& output)
 		{
 			PrintInfo(tv, output);
 		}
+		else if (command == "SelectPreviousChannel")
+		{
+			tv.SelectPreviousChannel();
+		}
 		else
 		{
 			output << "Error!! \nUnknown command, use: TurnOn, TurnOff, SelectChannel <channel number>, Info\n";

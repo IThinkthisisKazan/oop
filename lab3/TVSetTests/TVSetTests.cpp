@@ -48,7 +48,9 @@ TEST_CASE("select not available chanel")
 {
 	TVSet tv;
 	tv.TurnOn();
-	tv.SelectChannel(5);
-	tv.SelectChannel(100);
-	REQUIRE(tv.GetChannel() == 5);
+	tv.SelectChannel(1);
+	tv.SelectChannel(10);
+	tv.SelectChannel(12);
+	tv.SelectPreviousChannel();
+	REQUIRE(tv.GetChannel() == 10);
 }
