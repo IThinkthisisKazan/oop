@@ -1,0 +1,11 @@
+﻿  CCircle.cpp
+  CLineSegment.cpp
+  CPoint.cpp
+  CRectangle.cpp
+  CTriangle.cpp
+  main.cpp
+  ShapesProcessor.cpp
+  Tests.cpp
+  Создание кода...
+LINK : warning LNK4067: неоднозначная точка входа; выбрана "mainCRTStartup"
+  Shapes.vcxproj -> D:\OOP_c++\lab_4\Shapes\Shapes\x64\Debug\Shapes.exe
